@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/81be75e182.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <h2>Flávio Filho</h2>
+        <ul>
+            <a href="#inicio"><li>Home</li></a>
+            <a href="#sobre"><li>Sobre mim</li></a>
+            <a href="#projeto"><li>Projetos</li></a>
+            <a href="#conhecimentos"><li>Conhecimentos</li></a>
+        </ul>
+    </header>
+    <div class="bubbles">
+        <span style="--i:11"></span>
+        <span style="--i:12"></span>
+        <span style="--i:24"></span>
+        <span style="--i:10"></span>
+        <span style="--i:14"></span>
+        <span style="--i:23"></span>
+        <span style="--i:18"></span>
+        <span style="--i:16"></span>
+        <span style="--i:19"></span>
+        <span style="--i:20"></span>
+        <span style="--i:22"></span>
+        <span style="--i:25"></span>
+        <span style="--i:18"></span>
+        <span style="--i:21"></span>
+        <span style="--i:15"></span>
+        <span style="--i:13"></span>
+        <span style="--i:26"></span>
+        <span style="--i:17"></span>
+        <span style="--i:13"></span>
+        <span style="--i:23"></span>
+        <span style="--i:11"></span>
+        <span style="--i:12"></span>
+        <span style="--i:24"></span>
+        <span style="--i:10"></span>
+        <span style="--i:14"></span>
+        <span style="--i:23"></span>
+        <span style="--i:18"></span>
+        <span style="--i:16"></span>
+        <span style="--i:19"></span>
+        <span style="--i:20"></span>
+        <span style="--i:22"></span>
+        <span style="--i:25"></span>
+        <span style="--i:18"></span>
+        <span style="--i:21"></span>
+        <span style="--i:15"></span>
+        <span style="--i:13"></span>
+        <span style="--i:26"></span>
+        <span style="--i:17"></span>
+        <span style="--i:13"></span>
+        <span style="--i:23"></span>
+        <span style="--i:11"></span>
+        <span style="--i:12"></span>
+        <span style="--i:24"></span>
+        <span style="--i:10"></span>
+        <span style="--i:14"></span>
+        <span style="--i:23"></span>
+        <span style="--i:18"></span>
+        <span style="--i:16"></span>
+        <span style="--i:19"></span>
+        <span style="--i:20"></span>
+        <span style="--i:23"></span>
+        <span style="--i:18"></span>
+        <span style="--i:16"></span>
+        <span style="--i:19"></span>
+        <span style="--i:20"></span>
+        <span style="--i:23"></span>
+    </div>
+    <div id="inicio">
+        <div class="tituloBox">
+            <h1>Desenvolvedor Front-end e Designer</h1>
+            <p><a href="https://www.linkedin.com/in/flavio-filho-2abb38240/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></p>
+        </div>
+        <img src="images/flavio.jpg" class="imageFlavio">
+    </div>
+    <div id="sobre">
+        <h1>Sobre mim</h1>
+        <div class="conteudoSobre">
+            <p>Sou Flávio Filho, um estudante apaixonado por programação e como consequência disso, por design. Desde o Ensino Médio eu tenho contato com programação no curso técnico que fiz, no final do curso, realizei um estágio curricular e atualmente estou cursando o 1º semestre em Sistemas e Mídias Digitais na Universidade Federal do Ceará (UFC), possuo conhecimento na área de desenvolvimento web, pois foi aonde mais foquei nos ultimos tempos.
+            <br>
+            Pretendo continuar estudando a área da programação e desing e espero conseguir por em pratica o que eu aprendi. Atualmente focando no estudo de sistemas e jogos digitais
+            </p>
+            <img src="images/programdor.png" alt="">
+        </div>
+    </div>
+    <div id="projeto">
+        <h1>Projetos</h1>
+        <div class="projetos">
+            <img src="images/pong.png" alt="" onclick="deleteBackrooms()">
+          <div class="projeto">
+            <p class="emBreve">Em Breve</p>
+          </div>
+          <div class="projeto">
+            <p class="emBreve">Em Breve</p>
+          </div>
+          <div class="projeto">
+            <p class="emBreve">Em Breve</p>
+          </div>
+          <div class="projeto">
+            <p class="emBreve">Em Breve</p>
+          </div>
+          <div class="projeto">
+            <p class="emBreve">Em Breve</p>
+          </div>
+      </div>
+    </div>
+    <div id="conhecimentos">
+        <div>
+            <h1>Conhecimentos</h1>
+        <div class="tab">
+            <button class="tablinks" onclick="knowledge(event, 'HTML5')"><i class="fa-brands fa-html5 fa-2xl"></i></button>
+            <button class="tablinks" onclick="knowledge(event, 'CSS3')"><i class="fa-brands fa-css3-alt fa-2xl"></i></button>
+            <button class="tablinks" onclick="knowledge(event, 'Javascript')"><i class="fa-brands fa-square-js fa-2xl"></i></button>
+            <button class="tablinks" onclick="knowledge(event, 'Bootstrap')"><i class="fa-brands fa-bootstrap fa-2xl"></i></button>
+            <button class="tablinks" onclick="knowledge(event, 'React')"><i class="fa-brands fa-react fa-2xl"></i></button>
+            <button class="tablinks" onclick="knowledge(event, 'Github')"><i class="fa-brands fa-github fa-2xl"></i></button>
+          </div> 
+        </div>
+          <div id="HTML5" class="tabcontent">
+            <h3>HTML5</h3>
+            <p>A primeira linguagem a qual estudei no curso de informática, bem básica, mas importante, afinal, todos nós começamos de algum lugar.</p>
+            <br>
+            <p>De 0 a 10, meu conhecimento em HTML é 8</p>
+          </div>
+          <div id="CSS3" class="tabcontent">
+            <h3>CSS3</h3>
+            <p>Logo após aprender HTML, fui para o CSS, começando a estilizar as web pages do jeito que agradasse não só os meus olhos mas também de quem as via.</p>
+            <br>
+            <p>De 0 a 10, meu conhecimento em CSS é 8</p>
+          </div>
+          <div id="Javascript" class="tabcontent">
+            <h3>Javascript</h3>
+            <p>Fora do curso técnico do ensino médio, eu havia comprado um outro curso de desenvolvimento web fullstack, neste curso, eu aprendi Javascript, porém só fui aprender e praticar de verdade anos depois na plataforma Codewars, a qual uso até hoje.</p>
+            <br>
+            <p>De 0 a 10, meu conhecimento em Javascript é 9</p>
+          </div>
+          <div id="Bootstrap" class="tabcontent">
+            <h3>Bootstrap</h3>
+            <p>No mesmo curso de desenvolvimento full stack, aprendi e pratiquei Bootstrap, atualmente não o utilizo, porém tenho ideia de como ele funciona, assim como seus semelhantes, como Tailwindcss</p>
+            <br>
+            <p>De 0 a 10, meu conhecimento em Bootstrap é 7</p>
+          </div>
+          <div id="React" class="tabcontent">
+            <h3>React</h3>
+            <p>Comecei a aprender React durante o meu estágio do ensino médio, eu utilizei-o para criar alguns projetos que estão no meu Github e continuo-o usando até hoje, utilizando até React Native para o desenvolvimento mobile.</p>
+            <br>
+            <p>De 0 a 10, meu conhecimento em Bootstrap é 9</p>
+          </div>
+          <div id="Github" class="tabcontent">
+            <h3>Github</h3>
+            <p>É bem difícil um desenvolvedor não saber utilizar o Github, pois é lá onde a maioria deles guardam seus projetos, e eu não me excluo disso, a maioria dos meus projetos estão salvos no Github.</p>
+          </div>
+    </div>
+</body>
+</html>
